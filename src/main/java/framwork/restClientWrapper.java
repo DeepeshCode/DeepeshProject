@@ -18,5 +18,6 @@ public class restClientWrapper {
 		restResponse = new restClientResponse(response.getStatusCode(), 
 		response.getBody().asString(), response.getHeaders().toString());
 		return restResponse;
+		
 	}
 }
