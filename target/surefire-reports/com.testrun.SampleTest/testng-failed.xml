@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.testrun.SampleTest]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.testrun.SampleTest">
+        <methods>
+          <include name="testRun"/>
+          <include name="Set"/>
+          <include name="getResult"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- com.testrun.SampleTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.testrun.SampleTest] -->

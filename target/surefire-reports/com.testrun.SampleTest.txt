@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.testrun.SampleTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 0.817 sec <<< FAILURE!
+Set(com.testrun.SampleTest)  Time elapsed: 0.72 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.testrun.SampleTest.Set(SampleTest.java:47)
+

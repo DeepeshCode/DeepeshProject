@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4508" started-at="2020-09-13T00:31:02 IST" finished-at="2020-09-13T00:31:07 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4508" started-at="2020-09-13T00:31:02 IST" finished-at="2020-09-13T00:31:07 IST">
+      <class name="com.testrun.SampleTest">
+        <test-method status="PASS" signature="Set()[pri:0, instance:com.testrun.SampleTest@3d299e3]" name="Set" is-config="true" duration-ms="84" started-at="2020-09-13T00:31:02 IST" finished-at="2020-09-13T00:31:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Set -->
+        <test-method status="PASS" signature="testRun()[pri:0, instance:com.testrun.SampleTest@3d299e3]" name="testRun" duration-ms="4394" started-at="2020-09-13T00:31:02 IST" finished-at="2020-09-13T00:31:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRun -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.testrun.SampleTest@3d299e3]" name="getResult" is-config="true" duration-ms="5" started-at="2020-09-13T00:31:07 IST" finished-at="2020-09-13T00:31:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRun status=SUCCESS method=SampleTest.testRun()[pri:0, instance:com.testrun.SampleTest@3d299e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.testrun.SampleTest@3d299e3]" name="end" is-config="true" duration-ms="173" started-at="2020-09-13T00:31:07 IST" finished-at="2020-09-13T00:31:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- com.testrun.SampleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

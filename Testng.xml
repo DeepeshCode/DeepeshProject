@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suit"  > 
+<!-- suite name="Suite Name" --> 
+
+             <test name="Test" allow-return-values="true">
+           
+                     <classes>
+                             <class name ="com.testrun.Sampletest" />
+                     </classes>
+             </test>
+</suite>
